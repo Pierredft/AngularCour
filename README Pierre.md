@@ -4,4 +4,4 @@
 1 - Installation new project : ng new nom-du-projet
 2 - Demarrez le serveur : ng serve -o
 3 - Créer un composant dans le dossier "Component" : ng g c components/Nom_du_components
-4 - 
+4 - Install bootstrap : npm install bootstrap puis configurer le style et js dans le fichier angular.json

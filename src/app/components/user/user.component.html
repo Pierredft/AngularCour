@@ -1,7 +1,13 @@
-<h2>Composant User</h2>
+<h2 class="text-primary">Composant User</h2>
 <ul>
-    <li>{{nom}}</li>
+    <li class="text-primary">{{nom}}</li>
     <li>{{prenom}}</li>
-    <li>{{age}}</li>
+    <li>{{age}} ans</li>
 </ul>
 <img [src]="imgurl" alt="Falling in reverse">
+
+<form action="">
+  <input type="text" name="jobLabel" [(ngModel)]= "job">
+</form>
+
+<p>{{job}}</p>
