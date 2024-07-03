@@ -7,6 +7,9 @@ import { AlertButtonComponent } from './components/alert-button/alert-button.com
 import { MagieComponent } from './components/magie/magie.component';
 import { ListeFiltreComponent } from './components/liste-filtre/liste-filtre.component';
 import { ShowDateComponent } from './components/show-date/show-date.component';
+import { UserCardComponent } from './components/user-card/user-card.component';
+import { GenericAlertButtonComponent } from './components/generic-alert-button/generic-alert-button.component';
+import { ButtonMenuComponent } from './components/button-menu/button-menu.component';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +22,10 @@ import { ShowDateComponent } from './components/show-date/show-date.component';
     MagieComponent,
     ListeFiltreComponent,
     ShowDateComponent,
+    UserCardComponent,
+    GenericAlertButtonComponent,
+    ButtonMenuComponent,
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
